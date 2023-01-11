@@ -65,9 +65,9 @@ typedef int sys_prot_t;
 
 #define LWIP_PLATFORM_ASSERT(x) do {printf(x);}while(0)
 
-extern uint32_t CH30x_RNG_GENERATE();
-
-#define LWIP_RAND() ((u32_t)CH30x_RNG_GENERATE())
+//extern uint32_t CH30x_RNG_GENERATE();
+//
+//#define LWIP_RAND() ((u32_t)CH30x_RNG_GENERATE())
 
 extern u32_t sys_now(void);
 
